@@ -66,18 +66,18 @@ or at [PackageControl.io](https://packagecontrol.io/packages/ReadonlyProtect)
 
 ### Sublime plugin/package directories
 ```
-Windows: %APPDATA%\Sublime Text 3\Packages\User
-OS X: ~/Library/Application Support/Sublime Text 3/Packages/User
-Linux: ~/.config/sublime-text-3/Packages/User
+Windows: %APPDATA%\Sublime Text 3\Packages\%PACKAGE_NAME%
+OS X: ~/Library/Application Support/Sublime Text 3/Packages/$PACKAGE_NAME
+Linux: ~/.config/sublime-text-3/Packages/$PACKAGE_NAME
 ```
 *Windows OS version specific*
 ```
 rem Windows 7
-C:\Documents and Settings\%USERNAME%\Application Data\Sublime Text\Packages\User
+C:\Documents and Settings\%USERNAME%\Application Data\Sublime Text\Packages\%PACKAGE_NAME%
 
 rem Windows 10
-C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\User
+C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages\%PACKAGE_NAME%
 
 rem Windows Portable installation
-C:\Program Files (Portable)\SublimeText\Data\Packages\User
+C:\Program Files (Portable)\SublimeText\Data\Packages\%PACKAGE_NAME%
 ```
