@@ -1,6 +1,6 @@
 # Disable Edit Readonly Summary
-Tiny Sublime Plugin disabling editing of files that have read only 
-permissions. 
+Tiny Sublime Plugin disabling editing of files that have read-only 
+permissions on the os. 
 
 ## Description
 Plugin makes the file buffer's read-only state match the os read-write 
@@ -43,7 +43,7 @@ permissions. Hence if a file os permission is changed in the background
 it will only be reflected once the view of the current file deactivates 
 and reactivates. In my case (many cases) I will modify the os 
 permissions in one window and come back to Sublime to proceed with 
-editting; the view gains input focus the read only status is updated.
+editting; the view gains input focus and the read-only status is updated.
 
 ## Footprint
 Plugins hooks in on `on_activated` of the 
