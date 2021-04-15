@@ -1,6 +1,6 @@
 # Disable Edit Readonly Summary
-Tiny Sublime Plugin disabling editing of files that have read-only 
-permissions on the os. 
+Tiny lightweight Sublime Plugin disabling editing of files that have 
+read-only permissions on the os. 
 
 ## Description
 Plugin makes the file buffer's read-only state match the os read-write 
@@ -10,7 +10,7 @@ permissions of the file.
 disabled. A status key **[read only]** will be added.
 - If the file's os permissions are read-write editting of the file is 
 (re-)enabled.
-- A custom `color_scheme` for read-only files may be configured.
+- A custom **color_scheme** for read-only files may be configured.
 - Plugin does not live detect read-write permissions of a file; 
 read-write permissions are retrieved only every time a view is 
 activated. See Caveat/Detection section.
@@ -19,7 +19,8 @@ activated. See Caveat/Detection section.
 This package is not available through Package Control, install it 
 manually by downloading `disable_edit_readonly.py` and optionally 
 `disable_edit_readonly.sublime-settings` into the Sublime Package 
-directory. *(for instructions on manually installing see INSTALL.md)*
+directory. *For instructions on manually installing see 
+[INSTALL.md](https://github.com/remivisser/Sublime-Plugin-disable_edit_readonly/blob/main/INSTALL.md)*
 
 ## Configuration
 Read only files can be displayed with a custom theme. This is 
